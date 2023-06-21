@@ -1,24 +1,25 @@
-# README
+# ANYCABLE
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This is the rails project with integrating the AnyCable.
 
-Things you may want to cover:
+* We have to install anycable-go server.
+* It uses gRPC server.
 
-* Ruby version
+## Procedure
 
-* System dependencies
+Run Bundle install
+`bundle install`
 
-* Configuration
+Run `rails g anycable:setup`
 
-* Database creation
+Run the server `rails s`.
 
-* Database initialization
+Run `bundle exec anycable`
 
-* How to run the test suite
+Run `~$ anycable-go`
 
-* Services (job queues, cache servers, search engines, etc.)
+Here you go!!!
 
-* Deployment instructions
+### reference
 
-* ...
+Anycable Website - https://anycable.io
